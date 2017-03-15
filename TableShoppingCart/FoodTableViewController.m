@@ -25,7 +25,7 @@
     self.myTableView.dataSource = self;
     self.myTableView.delegate = self;
     
-    self.itemsForSection1 = [@[@"FoodID", @"FoodName", @"FoodPrice", @"FoodMadeInCountry", @"FoodCalorie", @"FoodSize", @"FoodIngredients"] mutableCopy];
+    self.itemsForSection1 = [@[@"FoodID", @"FoodName", @"FoodPrice", @"FoodMadeInCountry", @"FoodSize", @"FoodCalorie", @"FoodIngredients"] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,7 +72,7 @@
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 60;
+    return 90;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {

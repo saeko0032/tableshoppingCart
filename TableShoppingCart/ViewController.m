@@ -41,7 +41,7 @@
         ((DrinkTableViewController*)segue.destinationViewController).delegate = self;
     } else if([[segue identifier] isEqualToString:@"clothViewID"]) {
         ((ClothTableViewController*)segue.destinationViewController).delegate = self;
-    } else if([[segue identifier] isEqualToString:@"shoppingCartSegue"]) {
+    } else if([[segue identifier] isEqualToString:@"shoppingCartViewID"]) {
         ((ShoppingCartTableViewController*)segue.destinationViewController).delegate = self;
     }
 }
