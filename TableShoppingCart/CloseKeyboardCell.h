@@ -1,5 +1,5 @@
 //
-//  ShoppingCartViewController.h
+//  CloseKeyboardCell.h
 //  TableShoppingCart
 //
 //  Created by saekof on 2017-03-13.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShoppingCartViewController : UITableViewController
-
+@interface CloseKeyboardCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIButton *closeKeyboard;
 
 @end
-

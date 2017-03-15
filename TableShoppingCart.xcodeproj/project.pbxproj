@@ -7,53 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2313D11E77810C0077A256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313D01E77810C0077A256 /* main.m */; };
-		ED2313D41E77810C0077A256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313D31E77810C0077A256 /* AppDelegate.m */; };
-		ED2313D71E77810C0077A256 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313D61E77810C0077A256 /* ShoppingCartViewController.m */; };
-		ED2313DA1E77810C0077A256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2313D81E77810C0077A256 /* Main.storyboard */; };
-		ED2313DC1E77810C0077A256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2313DB1E77810C0077A256 /* Assets.xcassets */; };
-		ED2313DF1E77810C0077A256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2313DD1E77810C0077A256 /* LaunchScreen.storyboard */; };
-		ED2313F11E7784240077A256 /* ImageAndAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313F01E7784240077A256 /* ImageAndAddCell.m */; };
-		ED2314011E778A910077A256 /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313F41E778A910077A256 /* Cloth.m */; };
-		ED2314021E778A910077A256 /* ClothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313F61E778A910077A256 /* ClothViewController.m */; };
-		ED2314031E778A910077A256 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313F81E778A910077A256 /* Drink.m */; };
-		ED2314041E778A910077A256 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313FA1E778A910077A256 /* Food.m */; };
-		ED2314051E778A910077A256 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313FC1E778A910077A256 /* Material.m */; };
-		ED2314061E778A910077A256 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2313FE1E778A910077A256 /* Products.m */; };
-		ED2314071E778A910077A256 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314001E778A910077A256 /* ShoppingCart.m */; };
+		ED2314161E778D190077A256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314151E778D190077A256 /* main.m */; };
+		ED2314191E778D190077A256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314181E778D190077A256 /* AppDelegate.m */; };
+		ED23141C1E778D190077A256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23141B1E778D190077A256 /* ViewController.m */; };
+		ED23141F1E778D190077A256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED23141D1E778D190077A256 /* Main.storyboard */; };
+		ED2314211E778D190077A256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2314201E778D190077A256 /* Assets.xcassets */; };
+		ED2314241E778D190077A256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2314221E778D190077A256 /* LaunchScreen.storyboard */; };
+		ED23142F1E778FFE0077A256 /* ImageAndAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23142E1E778FFE0077A256 /* ImageAndAddCell.m */; };
+		ED23143C1E7790130077A256 /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314311E7790130077A256 /* Cloth.m */; };
+		ED23143D1E7790130077A256 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314331E7790130077A256 /* Drink.m */; };
+		ED23143E1E7790130077A256 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314351E7790130077A256 /* Food.m */; };
+		ED23143F1E7790130077A256 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314371E7790130077A256 /* Material.m */; };
+		ED2314401E7790130077A256 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314391E7790130077A256 /* Products.m */; };
+		ED2314411E7790130077A256 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23143B1E7790130077A256 /* ShoppingCart.m */; };
+		ED2314451E779B6B0077A256 /* ClothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314441E779B6B0077A256 /* ClothTableViewController.m */; };
+		ED2314481E779BE30077A256 /* CloseKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2314471E779BE30077A256 /* CloseKeyboardCell.m */; };
+		EDB63AA21E78CB40004FDE89 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AA11E78CB40004FDE89 /* TextFieldCell.m */; };
+		EDB63AA51E78CFA0004FDE89 /* DoneAndCancelBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AA41E78CFA0004FDE89 /* DoneAndCancelBtnCell.m */; };
+		EDB63AA81E78DFD5004FDE89 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AA71E78DFD5004FDE89 /* FoodTableViewController.m */; };
+		EDB63AAB1E78DFE4004FDE89 /* DrinkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AAA1E78DFE4004FDE89 /* DrinkTableViewController.m */; };
+		EDB63AAE1E78DFF4004FDE89 /* ShoppingCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AAD1E78DFF4004FDE89 /* ShoppingCartTableViewController.m */; };
+		EDB63AB11E78EDA8004FDE89 /* ProductImageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AB01E78EDA8004FDE89 /* ProductImageCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED2313CC1E77810C0077A256 /* TableShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED2313D01E77810C0077A256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED2313D21E77810C0077A256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ED2313D31E77810C0077A256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED2313D51E77810C0077A256 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
-		ED2313D61E77810C0077A256 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
-		ED2313D91E77810C0077A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED2313DB1E77810C0077A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED2313DE1E77810C0077A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ED2313E01E77810C0077A256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED2313EF1E7784240077A256 /* ImageAndAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndAddCell.h; sourceTree = "<group>"; };
-		ED2313F01E7784240077A256 /* ImageAndAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndAddCell.m; sourceTree = "<group>"; };
-		ED2313F31E778A910077A256 /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
-		ED2313F41E778A910077A256 /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
-		ED2313F51E778A910077A256 /* ClothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothViewController.h; sourceTree = "<group>"; };
-		ED2313F61E778A910077A256 /* ClothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothViewController.m; sourceTree = "<group>"; };
-		ED2313F71E778A910077A256 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
-		ED2313F81E778A910077A256 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
-		ED2313F91E778A910077A256 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
-		ED2313FA1E778A910077A256 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
-		ED2313FB1E778A910077A256 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
-		ED2313FC1E778A910077A256 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
-		ED2313FD1E778A910077A256 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
-		ED2313FE1E778A910077A256 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
-		ED2313FF1E778A910077A256 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
-		ED2314001E778A910077A256 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		ED2314111E778D190077A256 /* TableShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2314151E778D190077A256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED2314171E778D190077A256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED2314181E778D190077A256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED23141A1E778D190077A256 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED23141B1E778D190077A256 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED23141E1E778D190077A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2314201E778D190077A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2314231E778D190077A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2314251E778D190077A256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED23142D1E778FFE0077A256 /* ImageAndAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndAddCell.h; sourceTree = "<group>"; };
+		ED23142E1E778FFE0077A256 /* ImageAndAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndAddCell.m; sourceTree = "<group>"; };
+		ED2314301E7790130077A256 /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
+		ED2314311E7790130077A256 /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
+		ED2314321E7790130077A256 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		ED2314331E7790130077A256 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		ED2314341E7790130077A256 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		ED2314351E7790130077A256 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		ED2314361E7790130077A256 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		ED2314371E7790130077A256 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		ED2314381E7790130077A256 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		ED2314391E7790130077A256 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		ED23143A1E7790130077A256 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		ED23143B1E7790130077A256 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		ED2314431E779B6B0077A256 /* ClothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTableViewController.h; sourceTree = "<group>"; };
+		ED2314441E779B6B0077A256 /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
+		ED2314461E779BE30077A256 /* CloseKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseKeyboardCell.h; sourceTree = "<group>"; };
+		ED2314471E779BE30077A256 /* CloseKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseKeyboardCell.m; sourceTree = "<group>"; };
+		EDB63AA01E78CB40004FDE89 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		EDB63AA11E78CB40004FDE89 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		EDB63AA31E78CFA0004FDE89 /* DoneAndCancelBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneAndCancelBtnCell.h; sourceTree = "<group>"; };
+		EDB63AA41E78CFA0004FDE89 /* DoneAndCancelBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneAndCancelBtnCell.m; sourceTree = "<group>"; };
+		EDB63AA61E78DFD5004FDE89 /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		EDB63AA71E78DFD5004FDE89 /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		EDB63AA91E78DFE4004FDE89 /* DrinkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewController.h; sourceTree = "<group>"; };
+		EDB63AAA1E78DFE4004FDE89 /* DrinkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewController.m; sourceTree = "<group>"; };
+		EDB63AAC1E78DFF4004FDE89 /* ShoppingCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartTableViewController.h; sourceTree = "<group>"; };
+		EDB63AAD1E78DFF4004FDE89 /* ShoppingCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTableViewController.m; sourceTree = "<group>"; };
+		EDB63AAF1E78EDA8004FDE89 /* ProductImageCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageCellTableViewCell.h; sourceTree = "<group>"; };
+		EDB63AB01E78EDA8004FDE89 /* ProductImageCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED2313C91E77810C0077A256 /* Frameworks */ = {
+		ED23140E1E778D190077A256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,88 +84,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED2313C31E77810C0077A256 = {
+		ED2314081E778D190077A256 = {
 			isa = PBXGroup;
 			children = (
-				ED2313CE1E77810C0077A256 /* TableShoppingCart */,
-				ED2313CD1E77810C0077A256 /* Products */,
+				ED2314131E778D190077A256 /* TableShoppingCart */,
+				ED2314121E778D190077A256 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED2313CD1E77810C0077A256 /* Products */ = {
+		ED2314121E778D190077A256 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED2313CC1E77810C0077A256 /* TableShoppingCart.app */,
+				ED2314111E778D190077A256 /* TableShoppingCart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED2313CE1E77810C0077A256 /* TableShoppingCart */ = {
+		ED2314131E778D190077A256 /* TableShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
-				ED2313F21E778A430077A256 /* Model */,
-				ED2313D21E77810C0077A256 /* AppDelegate.h */,
-				ED2313D31E77810C0077A256 /* AppDelegate.m */,
-				ED2313D51E77810C0077A256 /* ShoppingCartViewController.h */,
-				ED2313D61E77810C0077A256 /* ShoppingCartViewController.m */,
-				ED2313EE1E7783DE0077A256 /* TableCell */,
-				ED2313D81E77810C0077A256 /* Main.storyboard */,
-				ED2313DB1E77810C0077A256 /* Assets.xcassets */,
-				ED2313DD1E77810C0077A256 /* LaunchScreen.storyboard */,
-				ED2313E01E77810C0077A256 /* Info.plist */,
-				ED2313CF1E77810C0077A256 /* Supporting Files */,
+				ED23142C1E778FA60077A256 /* Model */,
+				ED23142B1E778F9A0077A256 /* TableCell */,
+				ED2314421E779B4A0077A256 /* TableViewController */,
+				ED2314181E778D190077A256 /* AppDelegate.m */,
+				ED2314171E778D190077A256 /* AppDelegate.h */,
+				ED23141D1E778D190077A256 /* Main.storyboard */,
+				ED2314201E778D190077A256 /* Assets.xcassets */,
+				ED2314221E778D190077A256 /* LaunchScreen.storyboard */,
+				ED2314251E778D190077A256 /* Info.plist */,
+				ED2314141E778D190077A256 /* Supporting Files */,
 			);
 			path = TableShoppingCart;
 			sourceTree = "<group>";
 		};
-		ED2313CF1E77810C0077A256 /* Supporting Files */ = {
+		ED2314141E778D190077A256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED2313D01E77810C0077A256 /* main.m */,
+				ED2314151E778D190077A256 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ED2313EE1E7783DE0077A256 /* TableCell */ = {
+		ED23142B1E778F9A0077A256 /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
-				ED2313EF1E7784240077A256 /* ImageAndAddCell.h */,
-				ED2313F01E7784240077A256 /* ImageAndAddCell.m */,
+				ED23142D1E778FFE0077A256 /* ImageAndAddCell.h */,
+				ED23142E1E778FFE0077A256 /* ImageAndAddCell.m */,
+				ED2314461E779BE30077A256 /* CloseKeyboardCell.h */,
+				ED2314471E779BE30077A256 /* CloseKeyboardCell.m */,
+				EDB63AA01E78CB40004FDE89 /* TextFieldCell.h */,
+				EDB63AA11E78CB40004FDE89 /* TextFieldCell.m */,
+				EDB63AA31E78CFA0004FDE89 /* DoneAndCancelBtnCell.h */,
+				EDB63AA41E78CFA0004FDE89 /* DoneAndCancelBtnCell.m */,
+				EDB63AAF1E78EDA8004FDE89 /* ProductImageCellTableViewCell.h */,
+				EDB63AB01E78EDA8004FDE89 /* ProductImageCellTableViewCell.m */,
 			);
 			name = TableCell;
 			sourceTree = "<group>";
 		};
-		ED2313F21E778A430077A256 /* Model */ = {
+		ED23142C1E778FA60077A256 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ED2313F31E778A910077A256 /* Cloth.h */,
-				ED2313F41E778A910077A256 /* Cloth.m */,
-				ED2313F51E778A910077A256 /* ClothViewController.h */,
-				ED2313F61E778A910077A256 /* ClothViewController.m */,
-				ED2313F71E778A910077A256 /* Drink.h */,
-				ED2313F81E778A910077A256 /* Drink.m */,
-				ED2313F91E778A910077A256 /* Food.h */,
-				ED2313FA1E778A910077A256 /* Food.m */,
-				ED2313FB1E778A910077A256 /* Material.h */,
-				ED2313FC1E778A910077A256 /* Material.m */,
-				ED2313FD1E778A910077A256 /* Products.h */,
-				ED2313FE1E778A910077A256 /* Products.m */,
-				ED2313FF1E778A910077A256 /* ShoppingCart.h */,
-				ED2314001E778A910077A256 /* ShoppingCart.m */,
+				ED2314301E7790130077A256 /* Cloth.h */,
+				ED2314311E7790130077A256 /* Cloth.m */,
+				ED2314321E7790130077A256 /* Drink.h */,
+				ED2314331E7790130077A256 /* Drink.m */,
+				ED2314341E7790130077A256 /* Food.h */,
+				ED2314351E7790130077A256 /* Food.m */,
+				ED2314361E7790130077A256 /* Material.h */,
+				ED2314371E7790130077A256 /* Material.m */,
+				ED2314381E7790130077A256 /* Products.h */,
+				ED2314391E7790130077A256 /* Products.m */,
+				ED23143A1E7790130077A256 /* ShoppingCart.h */,
+				ED23143B1E7790130077A256 /* ShoppingCart.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		ED2314421E779B4A0077A256 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED23141A1E778D190077A256 /* ViewController.h */,
+				ED23141B1E778D190077A256 /* ViewController.m */,
+				ED2314431E779B6B0077A256 /* ClothTableViewController.h */,
+				ED2314441E779B6B0077A256 /* ClothTableViewController.m */,
+				EDB63AA61E78DFD5004FDE89 /* FoodTableViewController.h */,
+				EDB63AA71E78DFD5004FDE89 /* FoodTableViewController.m */,
+				EDB63AA91E78DFE4004FDE89 /* DrinkTableViewController.h */,
+				EDB63AAA1E78DFE4004FDE89 /* DrinkTableViewController.m */,
+				EDB63AAC1E78DFF4004FDE89 /* ShoppingCartTableViewController.h */,
+				EDB63AAD1E78DFF4004FDE89 /* ShoppingCartTableViewController.m */,
+			);
+			name = TableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED2313CB1E77810C0077A256 /* TableShoppingCart */ = {
+		ED2314101E778D190077A256 /* TableShoppingCart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED2313E31E77810C0077A256 /* Build configuration list for PBXNativeTarget "TableShoppingCart" */;
+			buildConfigurationList = ED2314281E778D190077A256 /* Build configuration list for PBXNativeTarget "TableShoppingCart" */;
 			buildPhases = (
-				ED2313C81E77810C0077A256 /* Sources */,
-				ED2313C91E77810C0077A256 /* Frameworks */,
-				ED2313CA1E77810C0077A256 /* Resources */,
+				ED23140D1E778D190077A256 /* Sources */,
+				ED23140E1E778D190077A256 /* Frameworks */,
+				ED23140F1E778D190077A256 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,26 +195,26 @@
 			);
 			name = TableShoppingCart;
 			productName = TableShoppingCart;
-			productReference = ED2313CC1E77810C0077A256 /* TableShoppingCart.app */;
+			productReference = ED2314111E778D190077A256 /* TableShoppingCart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED2313C41E77810C0077A256 /* Project object */ = {
+		ED2314091E778D190077A256 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CICCC;
 				TargetAttributes = {
-					ED2313CB1E77810C0077A256 = {
+					ED2314101E778D190077A256 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MY9Q5UCLRX;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = ED2313C71E77810C0077A256 /* Build configuration list for PBXProject "TableShoppingCart" */;
+			buildConfigurationList = ED23140C1E778D190077A256 /* Build configuration list for PBXProject "TableShoppingCart" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,63 +222,70 @@
 				en,
 				Base,
 			);
-			mainGroup = ED2313C31E77810C0077A256;
-			productRefGroup = ED2313CD1E77810C0077A256 /* Products */;
+			mainGroup = ED2314081E778D190077A256;
+			productRefGroup = ED2314121E778D190077A256 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED2313CB1E77810C0077A256 /* TableShoppingCart */,
+				ED2314101E778D190077A256 /* TableShoppingCart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED2313CA1E77810C0077A256 /* Resources */ = {
+		ED23140F1E778D190077A256 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2313DF1E77810C0077A256 /* LaunchScreen.storyboard in Resources */,
-				ED2313DC1E77810C0077A256 /* Assets.xcassets in Resources */,
-				ED2313DA1E77810C0077A256 /* Main.storyboard in Resources */,
+				ED2314241E778D190077A256 /* LaunchScreen.storyboard in Resources */,
+				ED2314211E778D190077A256 /* Assets.xcassets in Resources */,
+				ED23141F1E778D190077A256 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED2313C81E77810C0077A256 /* Sources */ = {
+		ED23140D1E778D190077A256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2314011E778A910077A256 /* Cloth.m in Sources */,
-				ED2314041E778A910077A256 /* Food.m in Sources */,
-				ED2313D71E77810C0077A256 /* ShoppingCartViewController.m in Sources */,
-				ED2314031E778A910077A256 /* Drink.m in Sources */,
-				ED2313D41E77810C0077A256 /* AppDelegate.m in Sources */,
-				ED2314071E778A910077A256 /* ShoppingCart.m in Sources */,
-				ED2314061E778A910077A256 /* Products.m in Sources */,
-				ED2314021E778A910077A256 /* ClothViewController.m in Sources */,
-				ED2314051E778A910077A256 /* Material.m in Sources */,
-				ED2313D11E77810C0077A256 /* main.m in Sources */,
-				ED2313F11E7784240077A256 /* ImageAndAddCell.m in Sources */,
+				EDB63AAE1E78DFF4004FDE89 /* ShoppingCartTableViewController.m in Sources */,
+				EDB63AB11E78EDA8004FDE89 /* ProductImageCellTableViewCell.m in Sources */,
+				EDB63AA51E78CFA0004FDE89 /* DoneAndCancelBtnCell.m in Sources */,
+				ED23143D1E7790130077A256 /* Drink.m in Sources */,
+				ED23143E1E7790130077A256 /* Food.m in Sources */,
+				ED23143C1E7790130077A256 /* Cloth.m in Sources */,
+				EDB63AAB1E78DFE4004FDE89 /* DrinkTableViewController.m in Sources */,
+				EDB63AA21E78CB40004FDE89 /* TextFieldCell.m in Sources */,
+				ED23141C1E778D190077A256 /* ViewController.m in Sources */,
+				EDB63AA81E78DFD5004FDE89 /* FoodTableViewController.m in Sources */,
+				ED2314451E779B6B0077A256 /* ClothTableViewController.m in Sources */,
+				ED2314481E779BE30077A256 /* CloseKeyboardCell.m in Sources */,
+				ED23143F1E7790130077A256 /* Material.m in Sources */,
+				ED2314191E778D190077A256 /* AppDelegate.m in Sources */,
+				ED2314401E7790130077A256 /* Products.m in Sources */,
+				ED2314161E778D190077A256 /* main.m in Sources */,
+				ED23142F1E778FFE0077A256 /* ImageAndAddCell.m in Sources */,
+				ED2314411E7790130077A256 /* ShoppingCart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED2313D81E77810C0077A256 /* Main.storyboard */ = {
+		ED23141D1E778D190077A256 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ED2313D91E77810C0077A256 /* Base */,
+				ED23141E1E778D190077A256 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ED2313DD1E77810C0077A256 /* LaunchScreen.storyboard */ = {
+		ED2314221E778D190077A256 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ED2313DE1E77810C0077A256 /* Base */,
+				ED2314231E778D190077A256 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -243,7 +293,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ED2313E11E77810C0077A256 /* Debug */ = {
+		ED2314261E778D190077A256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		ED2313E21E77810C0077A256 /* Release */ = {
+		ED2314271E778D190077A256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +381,7 @@
 			};
 			name = Release;
 		};
-		ED2313E41E77810C0077A256 /* Debug */ = {
+		ED2314291E778D190077A256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		ED2313E51E77810C0077A256 /* Release */ = {
+		ED23142A1E778D190077A256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,24 +408,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED2313C71E77810C0077A256 /* Build configuration list for PBXProject "TableShoppingCart" */ = {
+		ED23140C1E778D190077A256 /* Build configuration list for PBXProject "TableShoppingCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED2313E11E77810C0077A256 /* Debug */,
-				ED2313E21E77810C0077A256 /* Release */,
+				ED2314261E778D190077A256 /* Debug */,
+				ED2314271E778D190077A256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED2313E31E77810C0077A256 /* Build configuration list for PBXNativeTarget "TableShoppingCart" */ = {
+		ED2314281E778D190077A256 /* Build configuration list for PBXNativeTarget "TableShoppingCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED2313E41E77810C0077A256 /* Debug */,
-				ED2313E51E77810C0077A256 /* Release */,
+				ED2314291E778D190077A256 /* Debug */,
+				ED23142A1E778D190077A256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED2313C41E77810C0077A256 /* Project object */;
+	rootObject = ED2314091E778D190077A256 /* Project object */;
 }

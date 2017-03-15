@@ -7,12 +7,12 @@
 		<key>TableShoppingCart.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ED2313CB1E77810C0077A256</key>
+		<key>ED2314101E778D190077A256</key>
 		<dict>
 			<key>primary</key>
 			<true/>

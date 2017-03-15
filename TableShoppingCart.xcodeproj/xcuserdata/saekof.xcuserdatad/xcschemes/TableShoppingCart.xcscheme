@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED2313CB1E77810C0077A256"
+               BlueprintIdentifier = "ED2314101E778D190077A256"
                BuildableName = "TableShoppingCart.app"
                BlueprintName = "TableShoppingCart"
                ReferencedContainer = "container:TableShoppingCart.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED2313CB1E77810C0077A256"
+            BlueprintIdentifier = "ED2314101E778D190077A256"
             BuildableName = "TableShoppingCart.app"
             BlueprintName = "TableShoppingCart"
             ReferencedContainer = "container:TableShoppingCart.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED2313CB1E77810C0077A256"
+            BlueprintIdentifier = "ED2314101E778D190077A256"
             BuildableName = "TableShoppingCart.app"
             BlueprintName = "TableShoppingCart"
             ReferencedContainer = "container:TableShoppingCart.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED2313CB1E77810C0077A256"
+            BlueprintIdentifier = "ED2314101E778D190077A256"
             BuildableName = "TableShoppingCart.app"
             BlueprintName = "TableShoppingCart"
             ReferencedContainer = "container:TableShoppingCart.xcodeproj">
