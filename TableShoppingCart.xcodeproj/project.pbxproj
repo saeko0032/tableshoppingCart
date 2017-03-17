@@ -30,6 +30,16 @@
 		EDB63AB11E78EDA8004FDE89 /* ProductImageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AB01E78EDA8004FDE89 /* ProductImageCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EDB2AF531E7A257400FCE1B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB2AF4F1E7A257300FCE1B6 /* NaviShoppingCart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDB2AF351E7A257300FCE1B6;
+			remoteInfo = NaviShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		ED2314111E778D190077A256 /* TableShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2314151E778D190077A256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +69,7 @@
 		ED2314441E779B6B0077A256 /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
 		ED2314461E779BE30077A256 /* CloseKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseKeyboardCell.h; sourceTree = "<group>"; };
 		ED2314471E779BE30077A256 /* CloseKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseKeyboardCell.m; sourceTree = "<group>"; };
+		EDB2AF4F1E7A257300FCE1B6 /* NaviShoppingCart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NaviShoppingCart.xcodeproj; path = NaviShoppingCart/NaviShoppingCart.xcodeproj; sourceTree = "<group>"; };
 		EDB63AA01E78CB40004FDE89 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		EDB63AA11E78CB40004FDE89 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
 		EDB63AA31E78CFA0004FDE89 /* DoneAndCancelBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneAndCancelBtnCell.h; sourceTree = "<group>"; };
@@ -87,6 +98,7 @@
 		ED2314081E778D190077A256 = {
 			isa = PBXGroup;
 			children = (
+				EDB2AF4F1E7A257300FCE1B6 /* NaviShoppingCart.xcodeproj */,
 				ED2314131E778D190077A256 /* TableShoppingCart */,
 				ED2314121E778D190077A256 /* Products */,
 			);
@@ -178,6 +190,14 @@
 			name = TableViewController;
 			sourceTree = "<group>";
 		};
+		EDB2AF501E7A257300FCE1B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF541E7A257400FCE1B6 /* NaviShoppingCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,12 +245,28 @@
 			mainGroup = ED2314081E778D190077A256;
 			productRefGroup = ED2314121E778D190077A256 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EDB2AF501E7A257300FCE1B6 /* Products */;
+					ProjectRef = EDB2AF4F1E7A257300FCE1B6 /* NaviShoppingCart.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ED2314101E778D190077A256 /* TableShoppingCart */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EDB2AF541E7A257400FCE1B6 /* NaviShoppingCart.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NaviShoppingCart.app;
+			remoteRef = EDB2AF531E7A257400FCE1B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED23140F1E778D190077A256 /* Resources */ = {

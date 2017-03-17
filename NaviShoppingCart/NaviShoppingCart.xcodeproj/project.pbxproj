@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB2AF3A1E7A257300FCE1B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF391E7A257300FCE1B6 /* main.m */; };
+		EDB2AF3D1E7A257300FCE1B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF3C1E7A257300FCE1B6 /* AppDelegate.m */; };
+		EDB2AF431E7A257300FCE1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB2AF411E7A257300FCE1B6 /* Main.storyboard */; };
+		EDB2AF451E7A257300FCE1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB2AF441E7A257300FCE1B6 /* Assets.xcassets */; };
+		EDB2AF481E7A257300FCE1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB2AF461E7A257300FCE1B6 /* LaunchScreen.storyboard */; };
+		EDB2AF731E7A25F300FCE1B6 /* CloseKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF561E7A25F200FCE1B6 /* CloseKeyboardCell.m */; };
+		EDB2AF741E7A25F300FCE1B6 /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF581E7A25F300FCE1B6 /* Cloth.m */; };
+		EDB2AF751E7A25F300FCE1B6 /* ClothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF5A1E7A25F300FCE1B6 /* ClothTableViewController.m */; };
+		EDB2AF761E7A25F300FCE1B6 /* DoneAndCancelBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF5C1E7A25F300FCE1B6 /* DoneAndCancelBtnCell.m */; };
+		EDB2AF771E7A25F300FCE1B6 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF5E1E7A25F300FCE1B6 /* Drink.m */; };
+		EDB2AF781E7A25F300FCE1B6 /* DrinkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF601E7A25F300FCE1B6 /* DrinkTableViewController.m */; };
+		EDB2AF791E7A25F300FCE1B6 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF621E7A25F300FCE1B6 /* Food.m */; };
+		EDB2AF7A1E7A25F300FCE1B6 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF641E7A25F300FCE1B6 /* FoodTableViewController.m */; };
+		EDB2AF7B1E7A25F300FCE1B6 /* ImageAndAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF661E7A25F300FCE1B6 /* ImageAndAddCell.m */; };
+		EDB2AF7C1E7A25F300FCE1B6 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF681E7A25F300FCE1B6 /* Material.m */; };
+		EDB2AF7D1E7A25F300FCE1B6 /* ProductImageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF6A1E7A25F300FCE1B6 /* ProductImageCellTableViewCell.m */; };
+		EDB2AF7E1E7A25F300FCE1B6 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF6C1E7A25F300FCE1B6 /* Products.m */; };
+		EDB2AF7F1E7A25F300FCE1B6 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF6E1E7A25F300FCE1B6 /* ShoppingCart.m */; };
+		EDB2AF801E7A25F300FCE1B6 /* ShoppingCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF701E7A25F300FCE1B6 /* ShoppingCartTableViewController.m */; };
+		EDB2AF811E7A25F300FCE1B6 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF721E7A25F300FCE1B6 /* TextFieldCell.m */; };
+		EDB2AF871E7A26B700FCE1B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB2AF861E7A26B700FCE1B6 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDB2AF351E7A257300FCE1B6 /* NaviShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB2AF391E7A257300FCE1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB2AF3B1E7A257300FCE1B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB2AF3C1E7A257300FCE1B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB2AF421E7A257300FCE1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB2AF441E7A257300FCE1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB2AF471E7A257300FCE1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB2AF491E7A257300FCE1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB2AF551E7A25F200FCE1B6 /* CloseKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseKeyboardCell.h; sourceTree = "<group>"; };
+		EDB2AF561E7A25F200FCE1B6 /* CloseKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseKeyboardCell.m; sourceTree = "<group>"; };
+		EDB2AF571E7A25F300FCE1B6 /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
+		EDB2AF581E7A25F300FCE1B6 /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
+		EDB2AF591E7A25F300FCE1B6 /* ClothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTableViewController.h; sourceTree = "<group>"; };
+		EDB2AF5A1E7A25F300FCE1B6 /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
+		EDB2AF5B1E7A25F300FCE1B6 /* DoneAndCancelBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneAndCancelBtnCell.h; sourceTree = "<group>"; };
+		EDB2AF5C1E7A25F300FCE1B6 /* DoneAndCancelBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneAndCancelBtnCell.m; sourceTree = "<group>"; };
+		EDB2AF5D1E7A25F300FCE1B6 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		EDB2AF5E1E7A25F300FCE1B6 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		EDB2AF5F1E7A25F300FCE1B6 /* DrinkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewController.h; sourceTree = "<group>"; };
+		EDB2AF601E7A25F300FCE1B6 /* DrinkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewController.m; sourceTree = "<group>"; };
+		EDB2AF611E7A25F300FCE1B6 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		EDB2AF621E7A25F300FCE1B6 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		EDB2AF631E7A25F300FCE1B6 /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		EDB2AF641E7A25F300FCE1B6 /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		EDB2AF651E7A25F300FCE1B6 /* ImageAndAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndAddCell.h; sourceTree = "<group>"; };
+		EDB2AF661E7A25F300FCE1B6 /* ImageAndAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndAddCell.m; sourceTree = "<group>"; };
+		EDB2AF671E7A25F300FCE1B6 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		EDB2AF681E7A25F300FCE1B6 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		EDB2AF691E7A25F300FCE1B6 /* ProductImageCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageCellTableViewCell.h; sourceTree = "<group>"; };
+		EDB2AF6A1E7A25F300FCE1B6 /* ProductImageCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageCellTableViewCell.m; sourceTree = "<group>"; };
+		EDB2AF6B1E7A25F300FCE1B6 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		EDB2AF6C1E7A25F300FCE1B6 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		EDB2AF6D1E7A25F300FCE1B6 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		EDB2AF6E1E7A25F300FCE1B6 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		EDB2AF6F1E7A25F300FCE1B6 /* ShoppingCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartTableViewController.h; sourceTree = "<group>"; };
+		EDB2AF701E7A25F300FCE1B6 /* ShoppingCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTableViewController.m; sourceTree = "<group>"; };
+		EDB2AF711E7A25F300FCE1B6 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		EDB2AF721E7A25F300FCE1B6 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		EDB2AF851E7A26B700FCE1B6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDB2AF861E7A26B700FCE1B6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB2AF321E7A257300FCE1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB2AF2C1E7A257300FCE1B6 = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF371E7A257300FCE1B6 /* NaviShoppingCart */,
+				EDB2AF361E7A257300FCE1B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB2AF361E7A257300FCE1B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF351E7A257300FCE1B6 /* NaviShoppingCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB2AF371E7A257300FCE1B6 /* NaviShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF3B1E7A257300FCE1B6 /* AppDelegate.h */,
+				EDB2AF821E7A25F800FCE1B6 /* cell */,
+				EDB2AF831E7A260800FCE1B6 /* model */,
+				EDB2AF841E7A261500FCE1B6 /* VC */,
+				EDB2AF3C1E7A257300FCE1B6 /* AppDelegate.m */,
+				EDB2AF411E7A257300FCE1B6 /* Main.storyboard */,
+				EDB2AF441E7A257300FCE1B6 /* Assets.xcassets */,
+				EDB2AF461E7A257300FCE1B6 /* LaunchScreen.storyboard */,
+				EDB2AF491E7A257300FCE1B6 /* Info.plist */,
+				EDB2AF381E7A257300FCE1B6 /* Supporting Files */,
+			);
+			path = NaviShoppingCart;
+			sourceTree = "<group>";
+		};
+		EDB2AF381E7A257300FCE1B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF391E7A257300FCE1B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB2AF821E7A25F800FCE1B6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF551E7A25F200FCE1B6 /* CloseKeyboardCell.h */,
+				EDB2AF561E7A25F200FCE1B6 /* CloseKeyboardCell.m */,
+				EDB2AF5B1E7A25F300FCE1B6 /* DoneAndCancelBtnCell.h */,
+				EDB2AF5C1E7A25F300FCE1B6 /* DoneAndCancelBtnCell.m */,
+				EDB2AF651E7A25F300FCE1B6 /* ImageAndAddCell.h */,
+				EDB2AF661E7A25F300FCE1B6 /* ImageAndAddCell.m */,
+				EDB2AF691E7A25F300FCE1B6 /* ProductImageCellTableViewCell.h */,
+				EDB2AF6A1E7A25F300FCE1B6 /* ProductImageCellTableViewCell.m */,
+				EDB2AF711E7A25F300FCE1B6 /* TextFieldCell.h */,
+				EDB2AF721E7A25F300FCE1B6 /* TextFieldCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		EDB2AF831E7A260800FCE1B6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF571E7A25F300FCE1B6 /* Cloth.h */,
+				EDB2AF581E7A25F300FCE1B6 /* Cloth.m */,
+				EDB2AF5D1E7A25F300FCE1B6 /* Drink.h */,
+				EDB2AF5E1E7A25F300FCE1B6 /* Drink.m */,
+				EDB2AF611E7A25F300FCE1B6 /* Food.h */,
+				EDB2AF621E7A25F300FCE1B6 /* Food.m */,
+				EDB2AF671E7A25F300FCE1B6 /* Material.h */,
+				EDB2AF681E7A25F300FCE1B6 /* Material.m */,
+				EDB2AF6B1E7A25F300FCE1B6 /* Products.h */,
+				EDB2AF6C1E7A25F300FCE1B6 /* Products.m */,
+				EDB2AF6D1E7A25F300FCE1B6 /* ShoppingCart.h */,
+				EDB2AF6E1E7A25F300FCE1B6 /* ShoppingCart.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		EDB2AF841E7A261500FCE1B6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2AF851E7A26B700FCE1B6 /* ViewController.h */,
+				EDB2AF861E7A26B700FCE1B6 /* ViewController.m */,
+				EDB2AF591E7A25F300FCE1B6 /* ClothTableViewController.h */,
+				EDB2AF5A1E7A25F300FCE1B6 /* ClothTableViewController.m */,
+				EDB2AF5F1E7A25F300FCE1B6 /* DrinkTableViewController.h */,
+				EDB2AF601E7A25F300FCE1B6 /* DrinkTableViewController.m */,
+				EDB2AF631E7A25F300FCE1B6 /* FoodTableViewController.h */,
+				EDB2AF641E7A25F300FCE1B6 /* FoodTableViewController.m */,
+				EDB2AF6F1E7A25F300FCE1B6 /* ShoppingCartTableViewController.h */,
+				EDB2AF701E7A25F300FCE1B6 /* ShoppingCartTableViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB2AF341E7A257300FCE1B6 /* NaviShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB2AF4C1E7A257300FCE1B6 /* Build configuration list for PBXNativeTarget "NaviShoppingCart" */;
+			buildPhases = (
+				EDB2AF311E7A257300FCE1B6 /* Sources */,
+				EDB2AF321E7A257300FCE1B6 /* Frameworks */,
+				EDB2AF331E7A257300FCE1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviShoppingCart;
+			productName = NaviShoppingCart;
+			productReference = EDB2AF351E7A257300FCE1B6 /* NaviShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB2AF2D1E7A257300FCE1B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CICCC;
+				TargetAttributes = {
+					EDB2AF341E7A257300FCE1B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY9Q5UCLRX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDB2AF301E7A257300FCE1B6 /* Build configuration list for PBXProject "NaviShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB2AF2C1E7A257300FCE1B6;
+			productRefGroup = EDB2AF361E7A257300FCE1B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB2AF341E7A257300FCE1B6 /* NaviShoppingCart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB2AF331E7A257300FCE1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB2AF481E7A257300FCE1B6 /* LaunchScreen.storyboard in Resources */,
+				EDB2AF451E7A257300FCE1B6 /* Assets.xcassets in Resources */,
+				EDB2AF431E7A257300FCE1B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB2AF311E7A257300FCE1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB2AF871E7A26B700FCE1B6 /* ViewController.m in Sources */,
+				EDB2AF7C1E7A25F300FCE1B6 /* Material.m in Sources */,
+				EDB2AF7D1E7A25F300FCE1B6 /* ProductImageCellTableViewCell.m in Sources */,
+				EDB2AF791E7A25F300FCE1B6 /* Food.m in Sources */,
+				EDB2AF811E7A25F300FCE1B6 /* TextFieldCell.m in Sources */,
+				EDB2AF7A1E7A25F300FCE1B6 /* FoodTableViewController.m in Sources */,
+				EDB2AF761E7A25F300FCE1B6 /* DoneAndCancelBtnCell.m in Sources */,
+				EDB2AF741E7A25F300FCE1B6 /* Cloth.m in Sources */,
+				EDB2AF771E7A25F300FCE1B6 /* Drink.m in Sources */,
+				EDB2AF7E1E7A25F300FCE1B6 /* Products.m in Sources */,
+				EDB2AF3D1E7A257300FCE1B6 /* AppDelegate.m in Sources */,
+				EDB2AF781E7A25F300FCE1B6 /* DrinkTableViewController.m in Sources */,
+				EDB2AF751E7A25F300FCE1B6 /* ClothTableViewController.m in Sources */,
+				EDB2AF7B1E7A25F300FCE1B6 /* ImageAndAddCell.m in Sources */,
+				EDB2AF3A1E7A257300FCE1B6 /* main.m in Sources */,
+				EDB2AF731E7A25F300FCE1B6 /* CloseKeyboardCell.m in Sources */,
+				EDB2AF7F1E7A25F300FCE1B6 /* ShoppingCart.m in Sources */,
+				EDB2AF801E7A25F300FCE1B6 /* ShoppingCartTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB2AF411E7A257300FCE1B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB2AF421E7A257300FCE1B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB2AF461E7A257300FCE1B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB2AF471E7A257300FCE1B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB2AF4A1E7A257300FCE1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDB2AF4B1E7A257300FCE1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB2AF4D1E7A257300FCE1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY9Q5UCLRX;
+				INFOPLIST_FILE = NaviShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.CICCC.NaviShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDB2AF4E1E7A257300FCE1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY9Q5UCLRX;
+				INFOPLIST_FILE = NaviShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.CICCC.NaviShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB2AF301E7A257300FCE1B6 /* Build configuration list for PBXProject "NaviShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB2AF4A1E7A257300FCE1B6 /* Debug */,
+				EDB2AF4B1E7A257300FCE1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB2AF4C1E7A257300FCE1B6 /* Build configuration list for PBXNativeTarget "NaviShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB2AF4D1E7A257300FCE1B6 /* Debug */,
+				EDB2AF4E1E7A257300FCE1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB2AF2D1E7A257300FCE1B6 /* Project object */;
+}
