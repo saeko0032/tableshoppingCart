@@ -41,7 +41,7 @@
         ((DrinkTableViewController*)segue.destinationViewController).delegate = self;
     } else if([[segue identifier] isEqualToString:@"clothViewID"]) {
         ((ClothTableViewController*)segue.destinationViewController).delegate = self;
-    } else if([[segue identifier] isEqualToString:@"shoppingCartViewID"]) {
+    } else if([[segue identifier] isEqualToString:@"shoppingCartSegue"]) {
         ((ShoppingCartTableViewController*)segue.destinationViewController).delegate = self;
     }
 }
@@ -63,12 +63,11 @@
     cell.addButton.tag = indexPath.row;
     [cell.addButton addTarget:self action:@selector(selectView:) forControlEvents:UIControlEventTouchUpInside];
     return cell;
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.priceLabel.text = [NSString stringWithFormat:@"%d",[self.shoppingCart caluculateAllItems]];
+    self.priceLabel.text = [NSString stringWithFormat:@"%d", [self.shoppingCart caluculateAllItems]];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -88,11 +87,13 @@
     [self performSegueWithIdentifier:segueString sender:self];
 }
 
+// delegate from Food,Drink,Cloth ViewController
 -(void)addProductItem:(Products*)item
 {
     [self.shoppingCart addProductItem:item];
 }
 
+// delegate from ShoppingcartViewController
 -(void)getItemData:(ShoppingCartTableViewController*)shoppingViewController
 {
     NSMutableArray* item = [[NSMutableArray alloc] init];

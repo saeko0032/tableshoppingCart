@@ -25,7 +25,7 @@
     self.myTableView.dataSource = self;
     self.myTableView.delegate = self;
     
-    self.itemsForSection1 = [@[@"FoodID", @"FoodName", @"FoodPrice", @"FoodMadeInCountry", @"FoodSize", @"FoodCalorie", @"FoodIngredients"] mutableCopy];
+    self.itemsForSection1 = [@[@"FoodID", @"FoodName", @"FoodPrice", @"FoodMadeInCountry", @"FoodCalorie", @"FoodSize", @"FoodIngredients"] mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,16 +37,16 @@
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    if(indexPath.section == 0) {
-        // close keyboard cell
-        CloseKeyboardCell* cell = [tableView dequeueReusableCellWithIdentifier:@"closeKeyboardCellReuse"];
-        if(!cell) {
-            cell = [[CloseKeyboardCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"closeKeyboardCellReuse"];
-        }
-        // step2 : data binding
-        [cell.closeKeyboard addTarget:self action:@selector(dismissKeyboard) forControlEvents:UIControlEventTouchUpInside];
-        return cell;
-    } else if (indexPath.section == 1) {
+//    if(indexPath.section == 0) {
+//        // close keyboard cell
+//        CloseKeyboardCell* cell = [tableView dequeueReusableCellWithIdentifier:@"closeKeyboardCellReuse"];
+//        if(!cell) {
+//            cell = [[CloseKeyboardCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"closeKeyboardCellReuse"];
+//        }
+//        // step2 : data binding
+//        [cell.closeKeyboard addTarget:self action:@selector(dismissKeyboard) forControlEvents:UIControlEventTouchUpInside];
+//        return cell;
+//    } else if (indexPath.section == 1) {
         // product cell
         TextFieldCell* cell = [tableView dequeueReusableCellWithIdentifier:@"textFieldCellReuse"];
         if(!cell) {
@@ -55,38 +55,38 @@
         cell.productTextField.tag = indexPath.row;
         cell.productTextField.placeholder =  [self.itemsForSection1 objectAtIndex:indexPath.row];
         return cell;
-    } else if (indexPath.section == 2) {
-        // Done and Cancel Cell
-        DoneAndCancelBtnCell* cell = [tableView dequeueReusableCellWithIdentifier:@"doneAndCancelBtnCellReuse"];
-        if(!cell) {
-            cell = [[DoneAndCancelBtnCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"doneAndCancelBtnReuse"];
-        }
-        [cell.doneButton addTarget:self action:@selector(addFoodItem:) forControlEvents:UIControlEventTouchUpInside];
-        [cell.cancelButton addTarget:self action:@selector(closeView) forControlEvents:UIControlEventTouchUpInside];
-        return cell;
-    } else {
-        // do nothing
-        return nil;
-    }
+//    } else if (indexPath.section == 2) {
+//        // Done and Cancel Cell
+//        DoneAndCancelBtnCell* cell = [tableView dequeueReusableCellWithIdentifier:@"doneAndCancelBtnCellReuse"];
+//        if(!cell) {
+//            cell = [[DoneAndCancelBtnCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"doneAndCancelBtnReuse"];
+//        }
+//        [cell.doneButton addTarget:self action:@selector(addFoodItem:) forControlEvents:UIControlEventTouchUpInside];
+//        [cell.cancelButton addTarget:self action:@selector(closeView) forControlEvents:UIControlEventTouchUpInside];
+//        return cell;
+//    } else {
+//        // do nothing
+//        return nil;
+//    }
 }
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 90;
+    return 60;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if(section == 0) {
-        return 1;
-    } else if (section == 1) { // section = 1
+//    if(section == 0) {
+//        return 1;
+//    } else if (section == 1) { // section = 1
         return self.itemsForSection1.count;
-    } else {
-        return 1;
-    }
+//    } else {
+//        return 1;
+//    }
 }
 
 - (void)dismissKeyboard {
@@ -119,7 +119,7 @@
     [self closeView];
 }
 
-- (void)closeView {
+- (IBAction)closeView {
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
