@@ -21,7 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
     
     // make shoppingCartObject before use.
     NSMutableArray<Products*>* productItemArray = [[NSMutableArray alloc] init];
@@ -36,29 +35,26 @@
         ((DrinkTableViewController*)segue.destinationViewController).delegate = self;
     } else if([[segue identifier] isEqualToString:@"clothViewID"]) {
         ((ClothTableViewController*)segue.destinationViewController).delegate = self;
-    } else if([[segue identifier] isEqualToString:@"shoppingCartSegue"]) {
+    } else if([[segue identifier] isEqualToString:@"shoppingCartViewID"]) {
         ((ShoppingCartTableViewController*)segue.destinationViewController).delegate = self;
     }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.priceLabel.text = [NSString stringWithFormat:@"%d", [self.shoppingCart caluculateAllItems]];
+    self.priceLabel.text = [NSString stringWithFormat:@"%d",[self.shoppingCart caluculateAllItems]];
 }
-
-// delegate from Food,Drink,Cloth ViewController
 -(void)addProductItem:(Products*)item
 {
     [self.shoppingCart addProductItem:item];
 }
 
-// delegate from ShoppingcartViewController
 -(void)getItemData:(ShoppingCartTableViewController*)shoppingViewController
 {
     NSMutableArray* item = [[NSMutableArray alloc] init];

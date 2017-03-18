@@ -30,6 +30,16 @@
 		EDB63AB11E78EDA8004FDE89 /* ProductImageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB63AB01E78EDA8004FDE89 /* ProductImageCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ED6CD3191E7CCCC000F6497B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6CD3151E7CCCBF00F6497B /* TabShoppingCart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED6CD2F81E7CCCBE00F6497B;
+			remoteInfo = TabShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		ED2314111E778D190077A256 /* TableShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2314151E778D190077A256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +69,7 @@
 		ED2314441E779B6B0077A256 /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
 		ED2314461E779BE30077A256 /* CloseKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseKeyboardCell.h; sourceTree = "<group>"; };
 		ED2314471E779BE30077A256 /* CloseKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseKeyboardCell.m; sourceTree = "<group>"; };
+		ED6CD3151E7CCCBF00F6497B /* TabShoppingCart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TabShoppingCart.xcodeproj; path = TabShoppingCart/TabShoppingCart.xcodeproj; sourceTree = "<group>"; };
 		EDB63AA01E78CB40004FDE89 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		EDB63AA11E78CB40004FDE89 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
 		EDB63AA31E78CFA0004FDE89 /* DoneAndCancelBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneAndCancelBtnCell.h; sourceTree = "<group>"; };
@@ -87,6 +98,7 @@
 		ED2314081E778D190077A256 = {
 			isa = PBXGroup;
 			children = (
+				ED6CD3151E7CCCBF00F6497B /* TabShoppingCart.xcodeproj */,
 				ED2314131E778D190077A256 /* TableShoppingCart */,
 				ED2314121E778D190077A256 /* Products */,
 			);
@@ -178,6 +190,14 @@
 			name = TableViewController;
 			sourceTree = "<group>";
 		};
+		ED6CD3161E7CCCBF00F6497B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD31A1E7CCCC000F6497B /* TabShoppingCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,12 +245,28 @@
 			mainGroup = ED2314081E778D190077A256;
 			productRefGroup = ED2314121E778D190077A256 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED6CD3161E7CCCBF00F6497B /* Products */;
+					ProjectRef = ED6CD3151E7CCCBF00F6497B /* TabShoppingCart.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ED2314101E778D190077A256 /* TableShoppingCart */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ED6CD31A1E7CCCC000F6497B /* TabShoppingCart.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TabShoppingCart.app;
+			remoteRef = ED6CD3191E7CCCC000F6497B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED23140F1E778D190077A256 /* Resources */ = {

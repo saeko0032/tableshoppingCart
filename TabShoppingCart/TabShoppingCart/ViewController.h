@@ -13,8 +13,9 @@
 #import "DrinkTableViewController.h"
 #import "ShoppingCartTableviewController.h"
 
-@interface ViewController : UITableViewController<FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
+@interface ViewController : UIViewController<FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
 
+@property (strong, nonatomic) IBOutlet UITableView *myTableView;
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 @property (strong,nonatomic) ShoppingCart* shoppingCart;
 

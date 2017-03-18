@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6CD2FD1E7CCCBF00F6497B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD2FC1E7CCCBF00F6497B /* main.m */; };
+		ED6CD3001E7CCCBF00F6497B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD2FF1E7CCCBF00F6497B /* AppDelegate.m */; };
+		ED6CD3091E7CCCBF00F6497B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD3071E7CCCBF00F6497B /* Main.storyboard */; };
+		ED6CD30B1E7CCCBF00F6497B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD30A1E7CCCBF00F6497B /* Assets.xcassets */; };
+		ED6CD30E1E7CCCBF00F6497B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD30C1E7CCCBF00F6497B /* LaunchScreen.storyboard */; };
+		ED6CD3271E7CCCF800F6497B /* Cloth.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD31C1E7CCCF800F6497B /* Cloth.m */; };
+		ED6CD3281E7CCCF800F6497B /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD31E1E7CCCF800F6497B /* Drink.m */; };
+		ED6CD3291E7CCCF800F6497B /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3201E7CCCF800F6497B /* Food.m */; };
+		ED6CD32A1E7CCCF800F6497B /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3221E7CCCF800F6497B /* Material.m */; };
+		ED6CD32B1E7CCCF800F6497B /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3241E7CCCF800F6497B /* Products.m */; };
+		ED6CD32C1E7CCCF800F6497B /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3261E7CCCF800F6497B /* ShoppingCart.m */; };
+		ED6CD3381E7CCD4400F6497B /* CloseKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3311E7CCD4400F6497B /* CloseKeyboardCell.m */; };
+		ED6CD3391E7CCD4400F6497B /* DoneAndCancelBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3331E7CCD4400F6497B /* DoneAndCancelBtnCell.m */; };
+		ED6CD33A1E7CCD4400F6497B /* ImageAndAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3351E7CCD4400F6497B /* ImageAndAddCell.m */; };
+		ED6CD33B1E7CCD4400F6497B /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3371E7CCD4400F6497B /* TextFieldCell.m */; };
+		ED6CD3481E7CCD6700F6497B /* ClothTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD33D1E7CCD6700F6497B /* ClothTableViewController.m */; };
+		ED6CD3491E7CCD6700F6497B /* DrinkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD33F1E7CCD6700F6497B /* DrinkTableViewController.m */; };
+		ED6CD34A1E7CCD6700F6497B /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3411E7CCD6700F6497B /* FoodTableViewController.m */; };
+		ED6CD34B1E7CCD6700F6497B /* ProductImageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3431E7CCD6700F6497B /* ProductImageCellTableViewCell.m */; };
+		ED6CD34C1E7CCD6700F6497B /* ShoppingCartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3451E7CCD6700F6497B /* ShoppingCartTableViewController.m */; };
+		ED6CD34D1E7CCD6700F6497B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3471E7CCD6700F6497B /* ViewController.m */; };
+		ED6CD3531E7CD1C400F6497B /* CustomTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD3521E7CD1C400F6497B /* CustomTabController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED6CD2F81E7CCCBE00F6497B /* TabShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CD2FC1E7CCCBF00F6497B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED6CD2FE1E7CCCBF00F6497B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED6CD2FF1E7CCCBF00F6497B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED6CD3081E7CCCBF00F6497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6CD30A1E7CCCBF00F6497B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6CD30D1E7CCCBF00F6497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6CD30F1E7CCCBF00F6497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6CD31B1E7CCCF800F6497B /* Cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloth.h; sourceTree = "<group>"; };
+		ED6CD31C1E7CCCF800F6497B /* Cloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloth.m; sourceTree = "<group>"; };
+		ED6CD31D1E7CCCF800F6497B /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		ED6CD31E1E7CCCF800F6497B /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		ED6CD31F1E7CCCF800F6497B /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		ED6CD3201E7CCCF800F6497B /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		ED6CD3211E7CCCF800F6497B /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		ED6CD3221E7CCCF800F6497B /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		ED6CD3231E7CCCF800F6497B /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		ED6CD3241E7CCCF800F6497B /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+		ED6CD3251E7CCCF800F6497B /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		ED6CD3261E7CCCF800F6497B /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		ED6CD3301E7CCD4400F6497B /* CloseKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseKeyboardCell.h; sourceTree = "<group>"; };
+		ED6CD3311E7CCD4400F6497B /* CloseKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseKeyboardCell.m; sourceTree = "<group>"; };
+		ED6CD3321E7CCD4400F6497B /* DoneAndCancelBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneAndCancelBtnCell.h; sourceTree = "<group>"; };
+		ED6CD3331E7CCD4400F6497B /* DoneAndCancelBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneAndCancelBtnCell.m; sourceTree = "<group>"; };
+		ED6CD3341E7CCD4400F6497B /* ImageAndAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndAddCell.h; sourceTree = "<group>"; };
+		ED6CD3351E7CCD4400F6497B /* ImageAndAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndAddCell.m; sourceTree = "<group>"; };
+		ED6CD3361E7CCD4400F6497B /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		ED6CD3371E7CCD4400F6497B /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		ED6CD33C1E7CCD6700F6497B /* ClothTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTableViewController.h; sourceTree = "<group>"; };
+		ED6CD33D1E7CCD6700F6497B /* ClothTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTableViewController.m; sourceTree = "<group>"; };
+		ED6CD33E1E7CCD6700F6497B /* DrinkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewController.h; sourceTree = "<group>"; };
+		ED6CD33F1E7CCD6700F6497B /* DrinkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewController.m; sourceTree = "<group>"; };
+		ED6CD3401E7CCD6700F6497B /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		ED6CD3411E7CCD6700F6497B /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		ED6CD3421E7CCD6700F6497B /* ProductImageCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductImageCellTableViewCell.h; sourceTree = "<group>"; };
+		ED6CD3431E7CCD6700F6497B /* ProductImageCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductImageCellTableViewCell.m; sourceTree = "<group>"; };
+		ED6CD3441E7CCD6700F6497B /* ShoppingCartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartTableViewController.h; sourceTree = "<group>"; };
+		ED6CD3451E7CCD6700F6497B /* ShoppingCartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTableViewController.m; sourceTree = "<group>"; };
+		ED6CD3461E7CCD6700F6497B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED6CD3471E7CCD6700F6497B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED6CD3511E7CD1C400F6497B /* CustomTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabController.h; sourceTree = "<group>"; };
+		ED6CD3521E7CD1C400F6497B /* CustomTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6CD2F51E7CCCBE00F6497B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6CD2EF1E7CCCBE00F6497B = {
+			isa = PBXGroup;
+			children = (
+				ED6CD2FA1E7CCCBE00F6497B /* TabShoppingCart */,
+				ED6CD2F91E7CCCBE00F6497B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6CD2F91E7CCCBE00F6497B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD2F81E7CCCBE00F6497B /* TabShoppingCart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6CD2FA1E7CCCBE00F6497B /* TabShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD32F1E7CCD1900F6497B /* VC */,
+				ED6CD32E1E7CCD1300F6497B /* cell */,
+				ED6CD32D1E7CCD0000F6497B /* model */,
+				ED6CD2FE1E7CCCBF00F6497B /* AppDelegate.h */,
+				ED6CD2FF1E7CCCBF00F6497B /* AppDelegate.m */,
+				ED6CD3071E7CCCBF00F6497B /* Main.storyboard */,
+				ED6CD30A1E7CCCBF00F6497B /* Assets.xcassets */,
+				ED6CD30C1E7CCCBF00F6497B /* LaunchScreen.storyboard */,
+				ED6CD30F1E7CCCBF00F6497B /* Info.plist */,
+				ED6CD2FB1E7CCCBE00F6497B /* Supporting Files */,
+			);
+			path = TabShoppingCart;
+			sourceTree = "<group>";
+		};
+		ED6CD2FB1E7CCCBE00F6497B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD2FC1E7CCCBF00F6497B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED6CD32D1E7CCD0000F6497B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD31B1E7CCCF800F6497B /* Cloth.h */,
+				ED6CD31C1E7CCCF800F6497B /* Cloth.m */,
+				ED6CD31D1E7CCCF800F6497B /* Drink.h */,
+				ED6CD31E1E7CCCF800F6497B /* Drink.m */,
+				ED6CD31F1E7CCCF800F6497B /* Food.h */,
+				ED6CD3201E7CCCF800F6497B /* Food.m */,
+				ED6CD3211E7CCCF800F6497B /* Material.h */,
+				ED6CD3221E7CCCF800F6497B /* Material.m */,
+				ED6CD3231E7CCCF800F6497B /* Products.h */,
+				ED6CD3241E7CCCF800F6497B /* Products.m */,
+				ED6CD3251E7CCCF800F6497B /* ShoppingCart.h */,
+				ED6CD3261E7CCCF800F6497B /* ShoppingCart.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		ED6CD32E1E7CCD1300F6497B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD3421E7CCD6700F6497B /* ProductImageCellTableViewCell.h */,
+				ED6CD3431E7CCD6700F6497B /* ProductImageCellTableViewCell.m */,
+				ED6CD3301E7CCD4400F6497B /* CloseKeyboardCell.h */,
+				ED6CD3311E7CCD4400F6497B /* CloseKeyboardCell.m */,
+				ED6CD3321E7CCD4400F6497B /* DoneAndCancelBtnCell.h */,
+				ED6CD3331E7CCD4400F6497B /* DoneAndCancelBtnCell.m */,
+				ED6CD3341E7CCD4400F6497B /* ImageAndAddCell.h */,
+				ED6CD3351E7CCD4400F6497B /* ImageAndAddCell.m */,
+				ED6CD3361E7CCD4400F6497B /* TextFieldCell.h */,
+				ED6CD3371E7CCD4400F6497B /* TextFieldCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		ED6CD32F1E7CCD1900F6497B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD33C1E7CCD6700F6497B /* ClothTableViewController.h */,
+				ED6CD33D1E7CCD6700F6497B /* ClothTableViewController.m */,
+				ED6CD33E1E7CCD6700F6497B /* DrinkTableViewController.h */,
+				ED6CD33F1E7CCD6700F6497B /* DrinkTableViewController.m */,
+				ED6CD3401E7CCD6700F6497B /* FoodTableViewController.h */,
+				ED6CD3411E7CCD6700F6497B /* FoodTableViewController.m */,
+				ED6CD3441E7CCD6700F6497B /* ShoppingCartTableViewController.h */,
+				ED6CD3451E7CCD6700F6497B /* ShoppingCartTableViewController.m */,
+				ED6CD3461E7CCD6700F6497B /* ViewController.h */,
+				ED6CD3471E7CCD6700F6497B /* ViewController.m */,
+				ED6CD3511E7CD1C400F6497B /* CustomTabController.h */,
+				ED6CD3521E7CD1C400F6497B /* CustomTabController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6CD2F71E7CCCBE00F6497B /* TabShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CD3121E7CCCBF00F6497B /* Build configuration list for PBXNativeTarget "TabShoppingCart" */;
+			buildPhases = (
+				ED6CD2F41E7CCCBE00F6497B /* Sources */,
+				ED6CD2F51E7CCCBE00F6497B /* Frameworks */,
+				ED6CD2F61E7CCCBE00F6497B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabShoppingCart;
+			productName = TabShoppingCart;
+			productReference = ED6CD2F81E7CCCBE00F6497B /* TabShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6CD2F01E7CCCBE00F6497B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CICCC;
+				TargetAttributes = {
+					ED6CD2F71E7CCCBE00F6497B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY9Q5UCLRX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED6CD2F31E7CCCBE00F6497B /* Build configuration list for PBXProject "TabShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6CD2EF1E7CCCBE00F6497B;
+			productRefGroup = ED6CD2F91E7CCCBE00F6497B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6CD2F71E7CCCBE00F6497B /* TabShoppingCart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6CD2F61E7CCCBE00F6497B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD30E1E7CCCBF00F6497B /* LaunchScreen.storyboard in Resources */,
+				ED6CD30B1E7CCCBF00F6497B /* Assets.xcassets in Resources */,
+				ED6CD3091E7CCCBF00F6497B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6CD2F41E7CCCBE00F6497B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD3391E7CCD4400F6497B /* DoneAndCancelBtnCell.m in Sources */,
+				ED6CD34B1E7CCD6700F6497B /* ProductImageCellTableViewCell.m in Sources */,
+				ED6CD33A1E7CCD4400F6497B /* ImageAndAddCell.m in Sources */,
+				ED6CD3281E7CCCF800F6497B /* Drink.m in Sources */,
+				ED6CD34C1E7CCD6700F6497B /* ShoppingCartTableViewController.m in Sources */,
+				ED6CD3291E7CCCF800F6497B /* Food.m in Sources */,
+				ED6CD3491E7CCD6700F6497B /* DrinkTableViewController.m in Sources */,
+				ED6CD3271E7CCCF800F6497B /* Cloth.m in Sources */,
+				ED6CD34A1E7CCD6700F6497B /* FoodTableViewController.m in Sources */,
+				ED6CD32A1E7CCCF800F6497B /* Material.m in Sources */,
+				ED6CD3481E7CCD6700F6497B /* ClothTableViewController.m in Sources */,
+				ED6CD33B1E7CCD4400F6497B /* TextFieldCell.m in Sources */,
+				ED6CD3531E7CD1C400F6497B /* CustomTabController.m in Sources */,
+				ED6CD3001E7CCCBF00F6497B /* AppDelegate.m in Sources */,
+				ED6CD34D1E7CCD6700F6497B /* ViewController.m in Sources */,
+				ED6CD32B1E7CCCF800F6497B /* Products.m in Sources */,
+				ED6CD3381E7CCD4400F6497B /* CloseKeyboardCell.m in Sources */,
+				ED6CD2FD1E7CCCBF00F6497B /* main.m in Sources */,
+				ED6CD32C1E7CCCF800F6497B /* ShoppingCart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED6CD3071E7CCCBF00F6497B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6CD3081E7CCCBF00F6497B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6CD30C1E7CCCBF00F6497B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6CD30D1E7CCCBF00F6497B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6CD3101E7CCCBF00F6497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED6CD3111E7CCCBF00F6497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6CD3131E7CCCBF00F6497B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY9Q5UCLRX;
+				INFOPLIST_FILE = TabShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.CICCC.TabShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED6CD3141E7CCCBF00F6497B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY9Q5UCLRX;
+				INFOPLIST_FILE = TabShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.CICCC.TabShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6CD2F31E7CCCBE00F6497B /* Build configuration list for PBXProject "TabShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD3101E7CCCBF00F6497B /* Debug */,
+				ED6CD3111E7CCCBF00F6497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CD3121E7CCCBF00F6497B /* Build configuration list for PBXNativeTarget "TabShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD3131E7CCCBF00F6497B /* Debug */,
+				ED6CD3141E7CCCBF00F6497B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6CD2F01E7CCCBE00F6497B /* Project object */;
+}
