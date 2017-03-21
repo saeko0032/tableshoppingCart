@@ -11,19 +11,12 @@
 
 @interface ViewController ()
 
-@property (strong, nonatomic) NSMutableArray<NSString*>* itemsForSection1;
-@property (strong, nonatomic) NSMutableArray<NSString*>* itemsForSection2;
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    //self.delegate = self;
-    // make shoppingCartObject before use.
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +29,8 @@
     [self changePriceValue];
 }
 
-- (void)changePriceValue {
+- (void)changePriceValue
+{
     if([self.delegate respondsToSelector:@selector(changePriceValue)]) {
         ShoppingCart* tempS = [self.delegate changePriceValue];
         self.priceLabel.text = [NSString stringWithFormat:@"%d",[tempS caluculateAllItems]];

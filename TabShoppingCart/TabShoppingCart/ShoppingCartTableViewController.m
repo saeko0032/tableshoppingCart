@@ -68,9 +68,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if(self.productItemList == 0) {
-    //self.p
-    }
     return self.productItemList.count;
 }
 

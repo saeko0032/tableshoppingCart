@@ -14,7 +14,7 @@
 #import "ShoppingCartTableViewController.h"
 #import "ViewController.h"
 
-@interface CustomTabController : UITabBarController<UITabBarControllerDelegate, ViewControllerDelegate,  FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
+@interface CustomTabController : UITabBarController<UITabBarControllerDelegate, ViewControllerDelegate, FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
 @property (strong,nonatomic) ShoppingCart* shoppingCart;
 - (void)addProductItem:(Products*)item;
 

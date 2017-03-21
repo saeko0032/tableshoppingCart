@@ -43,11 +43,14 @@
         }
         cell.productTextField.tag = indexPath.row;
         cell.productTextField.placeholder =  [self.itemsForSection1 objectAtIndex:indexPath.row];
+    if(![cell.productTextField.text isEqualToString:@""]) {
+        cell.productTextField.text = @"";
+    }
         return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 95;
+    return 75;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
@@ -86,7 +89,8 @@
 }
 
 - (void)closeView {
-   // self.tabBarController.selectedIndex = 0;
+    // update Tableview
+    [self.myTableView reloadData];
 }
 
 @end

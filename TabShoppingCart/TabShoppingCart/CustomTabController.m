@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // For tabController
     self.delegate = self;
+    // initialize shoppingcart.productItemarray
     NSMutableArray<Products*>* productItemArray = [[NSMutableArray alloc] init];
     self.shoppingCart = [[ShoppingCart alloc] initWithProductItemArray:productItemArray totalPricce:0];
 }
@@ -36,7 +38,6 @@
 }
 */
 
-// http://ameblo.jp/fumin65/entry-11341997812.html
 
 - (void)tabBarController:(UITabBarController *)tabBarController
  didSelectViewController:(UIViewController *)viewController {
@@ -55,11 +56,13 @@
     }
 }
 
+// This protocol is called by Drink, Food, Cloth View Controller when they add Product
 -(void)addProductItem:(Products*)item
 {
     [self.shoppingCart addProductItem:item];
 }
 
+// This protocol is called by shoppingCart when They try to update View.
 -(void)getItemData:(ShoppingCartTableViewController*)shoppingViewController
 {
     NSMutableArray* item = [[NSMutableArray alloc] init];
@@ -67,7 +70,9 @@
     [shoppingViewController updateTextView:item];
 }
 
-- (ShoppingCart*)changePriceValue {
+// This protocol is called by (Price)ViewController when they update price.
+- (ShoppingCart*)changePriceValue
+{
     return self.shoppingCart;
 }
 
