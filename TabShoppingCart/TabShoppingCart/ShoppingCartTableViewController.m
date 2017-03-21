@@ -20,16 +20,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.myTableView.dataSource = self;
-    self.myTableView.delegate = self;
-    
     self.productItemList = [[NSMutableArray alloc] init];
     [self.delegate getItemData:self];
+    
+    self.myTableView.dataSource = self;
+    self.myTableView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [self.delegate getItemData:self];
 }
 
 #pragma mark - Table view data source
@@ -51,12 +55,12 @@
             cell.productImageView.image = [UIImage imageNamed:@"cloth_480"];
         }
     cell.productNameLabel.text = [self.productItemList objectAtIndex:indexPath.row].productName;
-    cell.productParice.text = [NSString stringWithFormat:@"%f", [self.productItemList objectAtIndex:indexPath.row].productPrice];
+    cell.productParice.text = [NSString stringWithFormat:@"%.2f", [self.productItemList objectAtIndex:indexPath.row].productPrice];
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 60;
+    return 80;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
@@ -64,6 +68,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if(self.productItemList == 0) {
+    //self.p
+    }
     return self.productItemList.count;
 }
 
@@ -71,6 +78,7 @@
 - (void)updateTextView:(NSMutableArray<Products*>*)items
 {
     self.productItemList = items;
+    [self.myTableView reloadData];
 }
 - (IBAction)closeView:(UIButton *)sender {
      [self dismissViewControllerAnimated:YES completion:NULL];

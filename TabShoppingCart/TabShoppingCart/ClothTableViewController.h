@@ -15,7 +15,7 @@
 - (void)addProductItem:(Products*)item;
 @end
 
-@interface ClothTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@interface ClothTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, UITabBarControllerDelegate>
 @property (weak, nonatomic) id<ClothViewControllerDelegate> delegate;
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
 

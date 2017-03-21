@@ -66,7 +66,7 @@
     [self.view endEditing:YES];
 }
 
-- (void)addClothItem:(UIButton*)sender {
+- (IBAction)addClothItem:(UIButton*)sender {
     
     NSMutableArray<NSString*> *cellList = [[NSMutableArray alloc] init];
     for(int i = 0; i < self.itemsForSection1.count; i++) {
@@ -99,7 +99,7 @@
 }
 
 - (void)closeView {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+   // self.tabBarController.selectedIndex = 0;
 }
 
 @end

@@ -49,7 +49,7 @@
 
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 90;
+    return 80;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
@@ -66,7 +66,7 @@
     [self.view endEditing:YES];
 }
 
-- (void)addFoodItem:(UIButton*)sender {
+- (IBAction)addFoodItem:(UIButton*)sender {
     
     NSMutableArray<NSString*> *cellList = [[NSMutableArray alloc] init];
     for(int i = 0; i < self.itemsForSection1.count; i++) {
@@ -93,8 +93,7 @@
 }
 
 - (void)closeView {
-    [self.navigationController popToRootViewControllerAnimated:YES];
-
+   // self.tabBarController.selectedIndex = 0;
 }
 
 @end

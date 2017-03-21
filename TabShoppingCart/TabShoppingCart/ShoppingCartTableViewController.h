@@ -16,7 +16,7 @@
 -(void)getItemData:(ShoppingCartTableViewController*)shoppingViewController;
 @end
 
-@interface ShoppingCartTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@interface ShoppingCartTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, UITabBarControllerDelegate>
 @property (weak, nonatomic) id<ShoppingCartViewControllerDelegate> delegate;
 - (void)updateTextView:(NSMutableArray<Products*>*)items;
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;

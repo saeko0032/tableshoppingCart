@@ -14,7 +14,7 @@
 - (void)addProductItem:(Products*)item;
 @end
 
-@interface DrinkTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@interface DrinkTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, UITabBarControllerDelegate>
 @property (weak, nonatomic) id<DrinkViewControllerDelegate> delegate;
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
 @end

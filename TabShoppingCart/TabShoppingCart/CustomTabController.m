@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.viewcontroller = self
-    // Do any additional setup after loading the view.
     self.delegate = self;
+    NSMutableArray<Products*>* productItemArray = [[NSMutableArray alloc] init];
+    self.shoppingCart = [[ShoppingCart alloc] initWithProductItemArray:productItemArray totalPricce:0];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,15 +40,35 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController
  didSelectViewController:(UIViewController *)viewController {
-    if([viewController isMemberOfClass:[FoodTableViewController class]]) {
-        ((FoodTableViewController*)viewController).delegate = self.viewcontroller;
+    if([viewController isMemberOfClass:[ViewController class]]) {
+        ((ViewController*)viewController).delegate = self;
+        [(ViewController*)viewController changePriceValue];
+    } else if([viewController isMemberOfClass:[FoodTableViewController class]]) {
+        ((FoodTableViewController*)viewController).delegate = self;
     } else if([viewController isMemberOfClass:[DrinkTableViewController class]]) {
-        ((DrinkTableViewController*)viewController).delegate = self.viewcontroller;
+        ((DrinkTableViewController*)viewController).delegate = self;
     } else if([viewController isMemberOfClass:[ClothTableViewController class]]) {
-        ((ClothTableViewController*)viewController).delegate = self.viewcontroller;
+        ((ClothTableViewController*)viewController).delegate = self;
     } else {
-        ((ShoppingCartTableViewController*)viewController).delegate = self.viewcontroller;
+        ((ShoppingCartTableViewController*)viewController).delegate = self;
+        [self getItemData:((ShoppingCartTableViewController*)viewController)];
     }
+}
+
+-(void)addProductItem:(Products*)item
+{
+    [self.shoppingCart addProductItem:item];
+}
+
+-(void)getItemData:(ShoppingCartTableViewController*)shoppingViewController
+{
+    NSMutableArray* item = [[NSMutableArray alloc] init];
+    item = self.shoppingCart.productItemArray;
+    [shoppingViewController updateTextView:item];
+}
+
+- (ShoppingCart*)changePriceValue {
+    return self.shoppingCart;
 }
 
 @end

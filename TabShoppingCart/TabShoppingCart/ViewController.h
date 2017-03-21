@@ -13,13 +13,16 @@
 #import "DrinkTableViewController.h"
 #import "ShoppingCartTableviewController.h"
 
-@interface ViewController : UIViewController<FoodViewControllerDelegate, DrinkViewControllerDelegate, ClothViewControllerDelegate, ShoppingCartViewControllerDelegate>
+@class ViewControllerDelegate;
+@protocol ViewControllerDelegate<NSObject>
+@required
+- (ShoppingCart*)changePriceValue;
+@end
 
-@property (strong, nonatomic) IBOutlet UITableView *myTableView;
+@interface ViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
-@property (strong,nonatomic) ShoppingCart* shoppingCart;
-
-- (void)addProductItem:(Products*)item;
-
+@property (weak, nonatomic) id<ViewControllerDelegate> delegate;
+- (void)changePriceValue;
 @end
 
