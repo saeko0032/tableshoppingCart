@@ -95,6 +95,10 @@
     [self closeView];
 }
 
+- (IBAction)closeKeyboard:(UIButton *)sender {
+    [self.view endEditing:YES];
+}
+
 - (void)closeView {
     [self.myTableView reloadData];
 }
